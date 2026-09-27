@@ -1,0 +1,36 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets & Environment Variables (Critical for LangChain/OpenAI keys)
+.env
+*.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit Cache
+.streamlit/secrets.toml
+
+# Cursor & Editor Settings
+.vscode/
+.cursor/
+.cursorrules
+.idea/
+*.swp
+*.swo
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+
+# Generated User Outputs (Word/PDF exports if saved locally)
+*.docx
+*.pdf
+!templates/*.docx
+!templates/*.pdf

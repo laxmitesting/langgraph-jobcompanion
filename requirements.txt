@@ -1,0 +1,9 @@
+langgraph
+langchain 
+langchain-openai 
+gradio 
+pydantic 
+streamlit 
+python-dotenv 
+python-docx 
+weasyprint
